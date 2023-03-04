@@ -9,7 +9,7 @@ url = ('https://newsapi.org/v2/everything?'
        'q=Apple&'
        'from=2023-02-11&'
        'sortBy=popularity&'
-       'apiKey=c847eb5b70cc4740ad8642463ba94703')
+       'apiKey=')  # use your own api key
 
 response = requests.get(url)
 news_data = response.json()
