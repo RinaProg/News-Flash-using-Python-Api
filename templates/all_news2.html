@@ -1,0 +1,29 @@
+{% extends "layout2.html" %}
+{% block body %}
+
+
+  <section class = "main-container-right">
+
+    <h2>Latest Stories</h2>
+    {%  for i in range(10,20)  %}   
+
+    <article>
+        <h4>&rarr;</h4>
+        <div>
+            <h2 style="color: rgb(32, 32, 184);">{{i+1}}. News :  {{news_data['articles'][i]['title']}}</h2>
+            <p><small>Author : {{news_data['articles'][i]['author']}}</small></p>
+            <p>Summary : {{news_data['articles'][i]['description'][0:80]}} ......</p>
+            <p> Published on :{{news_data['articles'][i]['publishedAt']}} </p><br>
+            <button class="button button2"> <a href = "{{news_data['articles'][i]['url']}}">Read More <span></span></a></button>
+        </div>
+        <img src = "{{news_data['articles'][i]['urlToImage']}}" >
+    </article>
+    {% endfor %}
+    
+</section>
+        
+</body>
+
+</html>
+
+{% endblock %}     

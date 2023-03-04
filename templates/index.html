@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html class="no-js">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title></title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="{{url_for('static',filename='style.css')}}">
+    <!-- google fonts -->
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&family=Raleway:wght@300;400;500;700;900&display=swap"
+        rel="stylesheet">
+    <!-- fontawesome -->
+    <script src="https://kit.fontawesome.com/dbed6b6114.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+
+    <!-- header -->
+    <header>
+        <div class="navigation-container">
+            <div class="top-head">
+                <div class="web-name">
+                    <h1>NEWS.</h1>
+                </div>
+
+                <div class="ham-btn">
+                    <span>
+                        <i class="fas fa-bars"></i>
+                    </span>
+                </div>
+
+                <div class="times-btn">
+                    <span>
+                        <i class="fas fa-times"></i>
+                    </span>
+                </div>
+            </div>
+
+            <!-- nav bar -->
+
+            <div class="nav-bar" id="nav-bar">
+                <nav>
+                    <ul>
+                        <li><a href="/">home</a></li>
+                        <li><a href="/allnews">broadcast</a></li>
+
+                        <li style="color:rgb(238, 230, 230); float:right;">
+                            <i class='far fa-clock' style='font-size:18px'>{{time_news}}</i>
+                        </li>
+                        <li style="color:rgb(238, 230, 230) ; float:right ;padding-right:40px;">
+                            <i class='fas fa-calendar-alt' style='font-size:18px'> {{date}}</i>
+                        </li>
+
+                    </ul>
+
+                </nav>
+            </div>
+        </div>
+    </header>
+
+
+    <section class="banner">
+        <div class="banner-main-content">
+            <h2>GET ALL LATEST NEWS HERE</h2>
+            <h3>Daily News Portal</h3>
+
+        </div>
+</section>
+        <div class = "banner-sub-content">
+             {% for i in range(2) %} 
+            <div class = "hot-topic">
+                <img src = "{{news_data['articles'][i]['urlToImage']}}" alt = "">
+
+                <div class = "hot-topic-content">
+                    <h2>{{news_data['articles'][i]['title']}}</h2>
+
+                    <h3>{{news_data['articles'][i]['author']}}</h3>
+                    <p>{{news_data['articles'][i]['description'][0:100]}} .....</p>
+                    <a href = "{{news_data['articles'][i]['url']}}">Read More</a>
+                </div>
+            </div>
+             {% endfor %}
+            </div>
+        </section>
+
+        <main>
+            <section class = "main-container-left">
+                <h2>Top Stories</h2>
+                {% for i in range(3,6) %}
+                <div class="container-top-left">
+
+                    <article>
+                        <img src=" {{news_data['articles'][i]['urlToImage']}}">
+                        <div>
+                            <h3>{{i+1}}. News : {{news_data['articles'][i]['title']}}</h3>
+                            <p><small>Author : {{news_data['articles'][i]['author']}}</small></p>
+                            <p>Summary : {{news_data['articles'][i]['description'][0:100]}} .....</p>
+                            <p> Published on :{{news_data['articles'][i]['publishedAt']}} </p>
+                            <a href="{{news_data['articles'][i]['url']}}">Read More <span>>></span></a>
+                        </div>
+                    </article>
+                </div>
+                {% endfor %}
+            </section>
+
+            <section class = "main-container-right">
+                <h2>Latest Stories</h2>
+                
+                {% for i in range(7,13) %}
+
+                <article>
+                    <h4>>></h4>
+                    <div>
+                        <h2>{{i+1}}. News : {{news_data['articles'][i]['title']}}</h2>
+                        <p><small>Author : {{news_data['articles'][i]['author']}}</small></p>
+                        <p>Summary : {{news_data['articles'][i]['description'][0:80]}} .......</p>
+                        <p> Published on :{{news_data['articles'][i]['publishedAt']}} </p>
+                        <a href="{{news_data['articles'][i]['url']}}">Read More <span>>></span></a>
+                    </div>
+                    <img src="{{news_data['articles'][i]['urlToImage']}}">
+                </article>
+                {% endfor %}
+
+            </section>
+            </main>
+            
+        <footer>
+            <div class="footer-container">
+                <div class="footer-left">
+                    <h2>NEWS.</h2>
+                </div>
+                <div class="footer-left">
+                    <h2>About</h2>
+                    <p>This news portal provide public-interest information, such as political, economic, sports, and
+                        entertainment news.
+                        <br>Designed By- Rina Nath
+                        <br>Date-03.02.23
+                    </p>
+                </div>
+
+                <div class="footer-right">
+                    <div class="social-icons">
+                        <ul>
+                            <li>
+                                <a href="#"><i class="fab fa-facebook"></i></a>
+                            </li>
+                            <li>
+                                <a href="#"><i class="fab fa-twitter"></i></a>
+                            </li>
+                            <li>
+                                <a href="#"><i class="fab fa-instagram"></i></a>
+                            </li>
+
+                        </ul>
+                    </div>
+
+
+                </div>
+            </div>
+
+            <p>Copyright &copy; 2023 All rights reserved |</p>
+        </footer>
+            
+        </body>
+        </html>
