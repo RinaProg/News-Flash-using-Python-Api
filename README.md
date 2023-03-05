@@ -19,9 +19,9 @@ This web application is built using Python framework (Flask) and NEWS API.The ap
 ##OUTPUT:
 
 ##TECHNICAL ASPECT:
--See different news sources on the Home page of the application.
--See the picture, summary and the time a news story was made.
--Click on readmore section  and read the full article on the source site.
+- See different news sources on the Home page of the application.
+- See the picture, summary and the time a news story was made.
+- Click on readmore section  and read the full article on the source site.
 ##TECHNOLOGY USED:
   Python 3.11.0
   Flask 2.2.2
