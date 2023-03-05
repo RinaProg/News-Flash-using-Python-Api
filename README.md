@@ -1,6 +1,7 @@
 # News-Flash-using-Python-Api
-This is a News Website that shows variety of current  information's. 
-## Contains:
+This is a News Website that shows variety of current  information's.
+
+## CONTAINS:
 + Overview
 + FlowDiagram
 + Output
@@ -23,8 +24,8 @@ This web application is built using Python framework (Flask) and NEWS API.The ap
 - See the picture, summary and the time a news story was made.
 - Click on readmore section  and read the full article on the source site.
 ## TECHNOLOGY USED:
-  Python 3.11.0
-  Flask 2.2.2
+    Python 3.11.0
+    Flask 2.2.2
 
 ## TOOLS:
 
