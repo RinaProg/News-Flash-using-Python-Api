@@ -28,12 +28,12 @@ This web application is built using Python framework (Flask) and NEWS API.The ap
     Flask 2.2.2
 
 ## TOOLS:
-   <p><img src="https://user-images.githubusercontent.com/125151906/220073302-61e5bb1b-d55e-453f-9c1e-3cd0bd64e4f2.png" width="80" height="80">&nbsp;&nbsp;
-<img src="https://user-images.githubusercontent.com/125151906/220073757-cd7e8803-b747-4c95-b610-65517748763b.png" width="80" height="80">&nbsp;&nbsp;
-<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRihXU8PH96OIWZ9RrD1-alJOeIOuv4yc2jH6CLmHyCJuuxg6vK-Xn05tXIrN4g0YhVM7U&usqp=CAU" width="80" height="80">&nbsp;&nbsp;</p>
+   <p><img src="https://user-images.githubusercontent.com/125151906/220073302-61e5bb1b-d55e-453f-9c1e-3cd0bd64e4f2.png" width="70" height="70">&nbsp;&nbsp;
+<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQpngGRjYX1ca7qAADU3K6eGLj7ShQE3L2otdzfryl_Y9Ht2QRoQKYQbsXd36XIxMbYOw0&usqp=CAU" width="70" height="70">&nbsp;&nbsp;
+<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRihXU8PH96OIWZ9RrD1-alJOeIOuv4yc2jH6CLmHyCJuuxg6vK-Xn05tXIrN4g0YhVM7U&usqp=CAU" width="70" height="70">&nbsp;&nbsp;</p>
 
 ## API REFERENCE:
-   | API	        |  Key Type    | Key Required     |      GET 	           |
+   | API	        |  Key Type    | Key Required     |      GET 	         |
    | :--------    | :------- 	   | :--------------- |:---------------      |
    | News 	      | `string` 	   | **Required**     |https://newsapi.org/  |
       
