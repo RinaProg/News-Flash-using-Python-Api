@@ -1,4 +1,4 @@
-# News-Flash-using-Python-Api
+# News-Flash-using-Python-Api &nbsp;<img src="https://img.freepik.com/free-vector/businessman-reading-newspaper-park-avatar-character_24877-57835.jpg?w=2000" width="40" height="40">
 This is a News Website that shows variety of current  information's.
 
 ## CONTAINS:
