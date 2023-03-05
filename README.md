@@ -1,4 +1,4 @@
-# News-Flash-using-Python-Api &nbsp;<img src="https://www.pngfind.com/pngs/m/279-2799175_newspaper-news-read-png-image-geological-features-of.png" width="55" height="40">
+# News-Flash-using-Python-Api &nbsp;<img src="https://img.freepik.com/free-vector/businessman-reading-newspaper-park-avatar-character_24877-57835.jpg?w=2000" width="55" height="40">
 This is a News Website that shows variety of current  information's.
 
 ## CONTAINS:
