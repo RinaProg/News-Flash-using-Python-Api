@@ -1,14 +1,14 @@
 # News-Flash-using-Python-Api
 This is a News Website that shows variety of current  information's. 
 ## Contains:
-+Overview
-+FlowDiagram
-+Output
-+Technical Aspect
-+Technology Used
-+Tools
-+API Reference
-+Credits
++ Overview
++ FlowDiagram
++ Output
++ Technical Aspect
++ Technology Used
++ Tools
++ API Reference
++ Credits
 
 ##OVERVIEW:
 
