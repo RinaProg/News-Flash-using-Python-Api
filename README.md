@@ -30,7 +30,7 @@ This web application is built using Python framework (Flask) and NEWS API.The ap
 ## TOOLS:
    <p><img src="https://user-images.githubusercontent.com/125151906/220073302-61e5bb1b-d55e-453f-9c1e-3cd0bd64e4f2.png" width="80" height="80">&nbsp;&nbsp;
 <img src="https://user-images.githubusercontent.com/125151906/220073757-cd7e8803-b747-4c95-b610-65517748763b.png" width="80" height="80">&nbsp;&nbsp;
-<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/CSS3_logo_and_wordmark.svg/1200px-CSS3_logo_and_wordmark.svg.png" width="80" height="80">&nbsp;&nbsp;</p>
+<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRihXU8PH96OIWZ9RrD1-alJOeIOuv4yc2jH6CLmHyCJuuxg6vK-Xn05tXIrN4g0YhVM7U&usqp=CAU" width="80" height="80">&nbsp;&nbsp;</p>
 
 ## API REFERENCE:
    | API	        |  Key Type    | Key Required     |      GET 	           |
