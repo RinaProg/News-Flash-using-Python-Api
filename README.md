@@ -28,7 +28,8 @@ This web application is built using Python framework (Flask) and NEWS API.The ap
     Flask 2.2.2
 
 ## TOOLS:
-
+   <p><img src="https://user-images.githubusercontent.com/125151906/220073302-61e5bb1b-d55e-453f-9c1e-3cd0bd64e4f2.png" width="80" height="80">&nbsp;&nbsp;
+<img src="https://user-images.githubusercontent.com/125151906/220073757-cd7e8803-b747-4c95-b610-65517748763b.png" width="80" height="80">&nbsp;&nbsp;
 
 ## API REFERENCE:
    | API	        |  Key Type    | Key Required     |      GET 	           |
