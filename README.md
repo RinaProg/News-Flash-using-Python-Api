@@ -16,7 +16,9 @@ This is a News Website that shows variety of current  information's.
 This web application is built using Python framework (Flask) and NEWS API.The application shows data about news stories from famous sources, top titles all over the world, gives new classifications and the different sources accessible.
 
 ## FLOW-DIAGRAM:
-
+      <p><img src="https://user-images.githubusercontent.com/122221586/223047472-76e07498-7f80-443f-bfd0-81fc2f4b2899.png
+" width="450" height="500"></p>
+   
 ## OUTPUT:
    <p><img src="https://user-images.githubusercontent.com/122221586/223034407-88215cdf-93d1-4f6a-91e2-ec50c636785d.png" width="450" height="500"></p>
    <p align="center"><img src="https://user-images.githubusercontent.com/122221586/223035453-fcbed26c-a747-4337-b5ac-4dc316490bda.png" width="450" height="500"></p>
