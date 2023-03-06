@@ -18,7 +18,8 @@ This web application is built using Python framework (Flask) and NEWS API.The ap
 ## FLOW-DIAGRAM:
 
 ## OUTPUT:
-   <img src="https://user-images.githubusercontent.com/122221586/223033820-a1460fc8-32bb-4ee9-a6e4-0b57b302c461.png" width="450" height="300">
+   <img src="https://user-images.githubusercontent.com/122221586/223034407-88215cdf-93d1-4f6a-91e2-ec50c636785d.png
+" width="450" height="300">
 
 ## TECHNICAL ASPECT:
 - See different news sources on the Home page of the application.
